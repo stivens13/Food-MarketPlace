@@ -35,7 +35,8 @@ class LoginModal extends Component {
     render() {
         return(
             <>
-            <video style={{height: 'auto', width:'100%', top: 0, padding: 0}}
+            <video style={{position: 'absolute', 'min-width': '100%',
+                'min-height': '100%', 'object-fit': 'fill', height: '100vh', width:'100%',  top: 0, padding: 0}}
                    className="videoTag"
                    muted
                    autoPlay
