@@ -30,10 +30,13 @@ class LoginModal extends Component {
                     <Header as='h2' style={{color: "white"}} textAlign='center'>
                         {' '}Sign-in to your account
                     </Header>
-                    <Form size='large'>
-                        <Segment raised>
+                    {/*<Form size='large'>*/}
+                        {/*<Segment raised>*/}
                             <Image size='medium' centered src={require('../../assets/images/shield_food_logo.png')}  />
 
+                    <br></br>
+                    <br></br>
+                    <br></br>
                             <StyledFirebaseAuth
                                 uiConfig={this.uiConfig}
                                 firebaseAuth={firebase.auth()}
@@ -47,9 +50,9 @@ class LoginModal extends Component {
                                 size='large'>Continue as guest</Button>
                             <br></br>
 
-                        </Segment>
+                        {/*</Segment>*/}
 
-                    </Form>
+                    {/*</Form>*/}
                 </div>
 
 
